@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Оператор typeof</h2>
+
+<p>Оператор typeof возвращает тип переменной, объекта, функции или выражения.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  typeof "Щипунов" + "<br>" +
+  typeof 3.14 + "<br>" +
+  typeof NaN + "<br>" +
+  typeof false + "<br>" +
+  typeof [1,2,3,4] + "<br>" +
+  typeof {name:'Щипунов', age:34} + "<br>" +
+  typeof new Date() + "<br>" +
+  typeof function () {} + "<br>" +
+  typeof myCar + "<br>" +
+  typeof null;
+</script>
+
+</body>
+</html>
